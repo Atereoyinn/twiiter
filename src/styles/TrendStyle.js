@@ -23,7 +23,6 @@ export const TrendInput = styled.input`
   border: none;
   border-radius: 25px;
   background: var(--trend-theme-color);
-  opacity:0.7;
   &::placeholder{
     color:darkgrey;
     padding-left:10px;
