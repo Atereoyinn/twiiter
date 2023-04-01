@@ -6,7 +6,7 @@ const Form = () => {
   return (
     <FormContainer>
       <TopSection>
-        <Image />
+        <Image src="oyin.jpg" alt="Profile Picture" />
         <Input />
       </TopSection>
     </FormContainer>

@@ -14,7 +14,7 @@ const HeadIcons = () => {
   const [clicked,setClicked] = useState(false)
 
   return (
-    <InputIcons>
+    <InputIcons style={{ color:"#1da1f2"}}>
       <Icons>
       {clicked ? <Input type="file"/> : <PermMediaTwoTone onClick={()=>setClicked(!clicked)}/>}
         
@@ -24,8 +24,8 @@ const HeadIcons = () => {
         <ScheduleRounded />
         <LocationOnTwoTone />
       </Icons>
-      <ButtonContainer style={{ width: "10vw", flex: "1" }}>
-        <Button>Tweet</Button>
+      <ButtonContainer style={{padding:"10px",display:"flex",flex:"1",justifyContent:"flex-end"}}>
+        <Button style={{width:"50%"}}>Tweet</Button>
       </ButtonContainer>
     </InputIcons>
   );

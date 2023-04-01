@@ -21,7 +21,7 @@ const index = () => {
           padding: "20px",
           fontSize: "40px",
           marginRight: "auto",
-          color: "whitesmoke",
+          color: "#1da1f2",
         }}
       />
       <Icons text="Home" icon={<Home style={iconStyle} />} />

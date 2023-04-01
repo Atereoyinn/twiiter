@@ -1,17 +1,19 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.div`
-  height: 100%;
+  
   width: 100%;
   flex: 0.4;
   display: flex;
   flex-direction: column;
 `;
+
 export const FormContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding: 5px;
 `;
+
 export const TopSection = styled.div`
   display: flex;
 `;
@@ -30,14 +32,12 @@ z-index: 9;
 `
 
 export const InputField = styled.textarea`
-  background-color: black;
   border: none;
-  color: whitesmoke;
 `;
+
 export const Horizontal = styled.hr`
   width: 95%;
   line-height: 0.5cm;
-  color: grey;
 `;
 
 export const InputIcons = styled.div`
@@ -48,7 +48,9 @@ export const InputIcons = styled.div`
 
 export const Icons = styled.div`
   display: flex;
-  flex: 2;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
 `;
 
 export const NameWrapper = styled.div`
@@ -64,13 +66,14 @@ export const PostStyle = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: whitesmoke;
 `;
+
 export const PostBody = styled.div`
   padding: 5px;
   margin: auto;
   width: 100%;
 `;
+
 export const Post = styled.p`
   font-size: 15px;
   padding: 0;

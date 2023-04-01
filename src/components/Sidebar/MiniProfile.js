@@ -4,7 +4,7 @@ import {  Image, Profile, Name, NameContainer, Username } from "../../styles/sid
 const MiniProfile = () => {
   return (
     <Profile>
-        <Image />
+        <Image src="oyin.jpg" alt="Profile Picture"/>
         <NameContainer>
           <Name>Ayuba Abiola</Name>
           <Username>@atereoyin</Username>

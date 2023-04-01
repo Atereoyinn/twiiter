@@ -1,18 +1,21 @@
-import { Container } from "./styles/globalStyle";
-import Sidebar from "./components/Sidebar/index.js";
-import Main from "./components/Main/index.js";
-import Trend from "./components/Trend/index.js";
+import HomePage from "./pages/homepage/HomePage";
+import { createGlobalStyle } from "styled-components";
+import { fontFamily, colors } from "./styles/global.styles";
+
+const GlobalStyle = createGlobalStyle`
+:root{
+  ${colors}
+  ${fontFamily}
+}
+`;
 
 function App() {
   return (
-    <Container>
-    <Sidebar />
-    <Main />
-    <Trend />
-</Container>
-  
+    <>
+      <GlobalStyle />
+      <HomePage />
+    </>
   );
 }
 
 export default App;
- 

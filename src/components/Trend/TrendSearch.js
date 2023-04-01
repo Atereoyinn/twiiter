@@ -5,7 +5,14 @@ const TrendSearch = () => {
   return (
     <TrendInputContainer>
       <TrendInput placeholder="Search Twitter" />
-      <SearchOutlined style={{position:"absolute",top:"41",left:"20",color:"gray"}} />
+      <SearchOutlined
+        style={{
+          position: "absolute",
+          top: "55px",
+          left: "30px",
+          color: "darkgrey",
+        }}
+      />
     </TrendInputContainer>
   );
 };

@@ -9,7 +9,7 @@ import {
 
 const WhoToFollowCard = () => {
   return (
-    <Profile style={{ width: "100%", justifyContent: "space-between" }}>
+    <Profile style={{ width: "100%",height:"40px", justifyContent: "space-between" }}>
       <Image />
       <NameContainer>
         <Name style={{ fontSize: "12px" }}>John Smith</Name>
@@ -21,8 +21,7 @@ const WhoToFollowCard = () => {
         style={{
           width: "40%",
           margin: "10px",
-          background: "whitesmoke",
-          color: "black",
+          background: "black",
         }}
       >
         Follow

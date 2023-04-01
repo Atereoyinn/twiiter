@@ -7,7 +7,7 @@ import Post from "./Post";
 const index = () => {
   return (
     <MainContainer>
-      <Text style={{ paddingTop: "25px", color: "whitesmoke" }}>Home</Text>
+      <Text style={{ paddingTop: "25px", color: "black" }}>Home</Text>
       <Form />
       <Post />
     </MainContainer>

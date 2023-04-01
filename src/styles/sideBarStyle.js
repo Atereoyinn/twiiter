@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
 export const SideBar = styled.div`
- height: 100%;
- padding: 25px;
+height: 100vh;
   margin-right: auto;
   margin-left: auto;
   display: flex;
-  flex: 0.3;
+  flex: 0.2;
+  align-content:center;
+  justify-content:space-between;
   min-width: 250px;
   flex-direction: column;
-  justify-content: space-between;
   cursor: pointer;
 `
 
@@ -18,10 +18,8 @@ export const IconWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   margin-right: auto;
-  color: whitesmoke;
   &:hover{
     background-color: rgb(108, 125, 141,0.2);
-    font-size: 25px;
     border-radius: 40px;
   }
 `
@@ -41,17 +39,17 @@ export const ButtonContainer = styled.div`
 padding: 20px;
 margin-right: auto;
 width: 15vw;
-
 `
 
 export const Button = styled.button`
 width: 100%;
 height: 40px;
 border-radius: 25px;
+border: none;
 font-size: 20px;
 font-weight: 400;
-background-color:  rgb(78, 201, 255);
-color: whitesmoke;
+color: var(--primary-color);
+background: var(--secondary-color);
 `
 
 export const Profile = styled.div`
@@ -62,7 +60,6 @@ padding: 15px;
 margin-right: auto;
 width: 15vw;
 border-radius: 25px;
-color: whitesmoke;
 &:hover{
     background-color: rgb(108, 125, 141,0.1);
 }
@@ -72,7 +69,6 @@ height: 40px;
 width:40px;
 border-radius: 50%;
 object-fit: cover;
-background: white;
 margin-right: 10px;
 `
 export const NameContainer = styled.div`

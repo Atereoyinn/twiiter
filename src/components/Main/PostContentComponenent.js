@@ -16,7 +16,7 @@ import {
 const PostContentContainer = () => {
   return (
     <PostWrapper>
-      <Image />
+      <Image src="oyin.jpg" alt="Profile Picture"/>
       <PostContent>
         <NameWrapper>
           <NameContainer style={{ flexDirection: "row" }}>
@@ -24,11 +24,10 @@ const PostContentContainer = () => {
             <Username>@atereoyin</Username>
             <Verified
               style={{
-                width: "17px",
-                height: "17px",
+                width: "20px",
+                height: "20px",
                 marginLeft: "5px",
-                background: "whitesmoke",
-                color: "skyblue",
+                color: "#1da1f2",
                 borderRadius: "50%",
               }}
             />
